@@ -28,7 +28,7 @@ nodes:
     installDisk: "#{ item.disk }#"
     machineSpec:
       secureboot: #{ (true if item.secureboot else false) | string | lower }#
-    talosImageURL: factory.talos.dev/nocloud-installer#{ "-secureboot" if item.secureboot | default(false, true) }#/#{ item.schematic_id }#:%{ talosVersion }#
+    talosImageURL: factory.talos.dev/nocloud-installer#{ "-secureboot" if item.secureboot | default(false, true) }#/#{ item.schematic_id }#
     controlPlane: #{ (item.controller) | string | lower }#
     networkInterfaces:
       #{ item.networkInterfaces }#

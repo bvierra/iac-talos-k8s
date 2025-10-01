@@ -25,7 +25,7 @@ nodes:
     installDisk: "/dev/vda"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30:%{ talosVersion }#
+    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30
     controlPlane: true
     networkInterfaces:
       [{'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:01:01'}, 'dhcp': False, 'addresses': ['10.10.130.101/24'], 'routes': [{'network': '0.0.0.0/0', 'gateway': '10.10.130.1'}], 'vip': {'ip': '10.10.130.100'}}, {'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:0a:01'}, 'dhcp': False, 'addresses': ['10.10.140.101/24'], 'mtu': 9000}]
@@ -35,7 +35,7 @@ nodes:
     installDisk: "/dev/vda"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30:%{ talosVersion }#
+    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30
     controlPlane: true
     networkInterfaces:
       [{'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:01:02'}, 'dhcp': False, 'addresses': ['10.10.130.102/24'], 'routes': [{'network': '0.0.0.0/0', 'gateway': '10.10.130.1'}], 'vip': {'ip': '10.10.130.100'}}, {'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:0a:02'}, 'dhcp': False, 'addresses': ['10.10.140.102/24'], 'mtu': 9000}]
@@ -45,7 +45,7 @@ nodes:
     installDisk: "/dev/vda"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30:%{ talosVersion }#
+    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30
     controlPlane: true
     networkInterfaces:
       [{'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:01:03'}, 'dhcp': False, 'addresses': ['10.10.130.103/24'], 'routes': [{'network': '0.0.0.0/0', 'gateway': '10.10.130.1'}], 'vip': {'ip': '10.10.130.100'}}, {'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:0a:03'}, 'dhcp': False, 'addresses': ['10.10.140.103/24'], 'mtu': 9000}]
@@ -55,8 +55,8 @@ nodes:
     installDisk: "/dev/vda"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30:%{ talosVersion }#
-    controlPlane: true
+    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30
+    controlPlane: false
     networkInterfaces:
       [{'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:02:01'}, 'dhcp': False, 'addresses': ['10.10.130.111/24'], 'routes': [{'network': '0.0.0.0/0', 'gateway': '10.10.130.1'}]}, {'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:0b:01'}, 'dhcp': False, 'addresses': ['10.10.140.111/24'], 'mtu': 9000}]
 
@@ -65,8 +65,8 @@ nodes:
     installDisk: "/dev/vda"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30:%{ talosVersion }#
-    controlPlane: true
+    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30
+    controlPlane: false
     networkInterfaces:
       [{'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:02:02'}, 'dhcp': False, 'addresses': ['10.10.130.112/24'], 'routes': [{'network': '0.0.0.0/0', 'gateway': '10.10.130.1'}]}, {'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:0b:02'}, 'dhcp': False, 'addresses': ['10.10.140.112/24'], 'mtu': 9000}]
 
@@ -75,8 +75,8 @@ nodes:
     installDisk: "/dev/vda"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30:%{ talosVersion }#
-    controlPlane: true
+    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30
+    controlPlane: false
     networkInterfaces:
       [{'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:02:03'}, 'dhcp': False, 'addresses': ['10.10.130.113/24'], 'routes': [{'network': '0.0.0.0/0', 'gateway': '10.10.130.1'}]}, {'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:0b:03'}, 'dhcp': False, 'addresses': ['10.10.140.113/24'], 'mtu': 9000}]
 
@@ -85,8 +85,8 @@ nodes:
     installDisk: "/dev/vda"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30:%{ talosVersion }#
-    controlPlane: true
+    talosImageURL: factory.talos.dev/nocloud-installer-secureboot/d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30
+    controlPlane: false
     networkInterfaces:
       [{'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:02:04'}, 'dhcp': False, 'addresses': ['10.10.130.114/24'], 'routes': [{'network': '0.0.0.0/0', 'gateway': '10.10.130.1'}]}, {'deviceSelector': {'driver': 'virtio_net', 'hardwareAddr': 'bc:24:11:bc:0b:04'}, 'dhcp': False, 'addresses': ['10.10.140.114/24'], 'mtu': 9000}]
 
@@ -97,6 +97,7 @@ patches:
   - "@./patches/global/machine-kubelet.yaml"
   - "@./patches/global/machine-network.yaml"
   - "@./patches/global/machine-registries.yaml"
+  - "@./patches/global/machine-schematic.yaml"
   - "@./patches/global/machine-sysctls.yaml"
   - "@./patches/global/machine-time.yaml"
 
