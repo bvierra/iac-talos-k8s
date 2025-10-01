@@ -95,7 +95,7 @@ tasks:
       - for: { var: SECRET_FILES }
         cmd: |
           if sops filestatus "{{.ITEM}}" | jq --exit-status ".encrypted == false" &>/dev/null; then
-              sops --encrypt --in-place "{{.ITEM}}" || { echo "ERROR: ENCRYPT {{.ITEM}}"; exit 1;}
+              sops --encrypt --in-place "{{.ITEM}}"
           fi
     vars:
       SECRET_FILES:
