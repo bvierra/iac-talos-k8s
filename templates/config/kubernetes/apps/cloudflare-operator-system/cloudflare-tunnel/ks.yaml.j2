@@ -10,7 +10,7 @@ spec:
     labels:
       app.kubernetes.io/name: *app
   interval: 1h
-  path: ./kubernetes/apps/cloudflare-operator-system/cloudflare-operator-tunnel
+  path: ./kubernetes/apps/cloudflare-operator-system/cloudflare-tunnel
   dependsOn:
     - name: cloudflare-operator
       namespace: *namespace
