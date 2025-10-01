@@ -4,4 +4,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - ./secret.sops.yaml
-  - ./ocirepository.yaml
+  - https://github.com/adyanth/cloudflare-operator.git/config/default?ref=v0.13.1
