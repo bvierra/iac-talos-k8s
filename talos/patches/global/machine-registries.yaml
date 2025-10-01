@@ -1,0 +1,4 @@
+machine:
+  registries:
+    mirrors:
+      {'ghcr.io': {'endpoints': ['https://registry.lab.vierra.host']}, 'docker.io': {'endpoints': ['https://registry.lab.vierra.host']}, 'gcr.io': {'endpoints': ['https://registry.lab.vierra.host']}, 'registry.k8s.io': {'endpoints': ['https://registry.lab.vierra.host']}, 'quay.io': {'endpoints': ['https://registry.lab.vierra.host']}}
