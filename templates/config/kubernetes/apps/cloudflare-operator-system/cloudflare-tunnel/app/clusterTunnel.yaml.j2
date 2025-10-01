@@ -1,0 +1,14 @@
+apiVersion: networking.cfargotunnel.com/v1alpha2
+kind: ClusterTunnel
+metadata:
+  name: kubernetes-tunnel
+spec:
+  newTunnel:
+    name: test-tunnel
+  cloudflare:
+    email: ${CLOUDFLARE_EMAIL}
+    domain: ${CLOUDFLARE_DOMAIN}
+    secret: cloudflare-secrets
+    accountId: ${CLOUDFLARE_ACCOUNT_ID}
+  fallbackTarget: http_status:404
+  noTlsVerify: false
