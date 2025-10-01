@@ -1,0 +1,9 @@
+# schematic id: d3dc673627e9b94c6cd4122289aa52c2484cddb31017ae21b75309846e257d30
+machine:
+  schematic:
+    customization:
+      systemExtensions:
+        officialExtensions:
+          enabled:
+            - siderolabs/i915
+            - siderolabs/qemu-guest-agent
