@@ -5,6 +5,6 @@ kind: Kustomization
 namespace: cloudflare-operator-system
 components:
   - ../../components/common
-#resources:
-#  - ./cloudflare-operator/ks.yaml
-#  - ./cloudflare-tunnel/ks.yaml
+resources:
+  - ./cloudflare-operator/ks.yaml
+  - ./cloudflare-tunnel/ks.yaml
