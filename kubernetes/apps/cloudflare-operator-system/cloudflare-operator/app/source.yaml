@@ -1,6 +1,6 @@
 Create cf-operator-source.yaml in base/cloudflare-operator:
 
-apiVersion: source.toolkit.fluxcd.io/v1beta2
+apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: cloudflare-operator
